@@ -1,14 +1,3 @@
-//-------------------------------------------------------------------------------
-///
-/// TASK: Implement the remove comment functionality for the Twitter program
-/// 
-/// Requirements:
-/// - Close the comment account and return rent to comment author
-/// 
-/// NOTE: No implementation logic is needed in the function body - this 
-/// functionality is achieved entirely through account constraints!
-/// 
-///-------------------------------------------------------------------------------
 
 use anchor_lang::prelude::*;
 

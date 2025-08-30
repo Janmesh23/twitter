@@ -1,15 +1,3 @@
-//-------------------------------------------------------------------------------
-///
-/// TASK: Implement the add comment functionality for the Twitter program
-/// 
-/// Requirements:
-/// - Validate comment length (≤ 500 chars)
-/// - Initialize a new comment account with proper PDA seeds:
-///     [COMMENT_SEED, comment_author, sha256(comment_content), parent_tweet]
-/// - Set fields: content, author, parent tweet, bump
-/// - Payer is the comment author
-/// 
-///-------------------------------------------------------------------------------
 
 use anchor_lang::prelude::*;
 use anchor_lang::solana_program::hash::hash;
